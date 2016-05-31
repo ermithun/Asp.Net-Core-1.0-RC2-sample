@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9C894C0-54DF-4573-9E8A-A96848C919D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BC00C225-8059-4BE4-8310-36F90239AA51}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "mvccorerc2", "src\mvccorerc2\mvccorerc2.xproj", "{85AF2F2C-B4A3-416A-B806-5B774881C5C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7BE67FD6-AC7B-4210-BB15-5C31A0D00113}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Common", "Common\Common.xproj", "{D0D96BE8-9304-4247-9C12-2B87460B98D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85AF2F2C-B4A3-416A-B806-5B774881C5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85AF2F2C-B4A3-416A-B806-5B774881C5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85AF2F2C-B4A3-416A-B806-5B774881C5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85AF2F2C-B4A3-416A-B806-5B774881C5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D96BE8-9304-4247-9C12-2B87460B98D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D96BE8-9304-4247-9C12-2B87460B98D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D96BE8-9304-4247-9C12-2B87460B98D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D96BE8-9304-4247-9C12-2B87460B98D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85AF2F2C-B4A3-416A-B806-5B774881C5C0} = {A9C894C0-54DF-4573-9E8A-A96848C919D7}
+		{7BE67FD6-AC7B-4210-BB15-5C31A0D00113} = {A9C894C0-54DF-4573-9E8A-A96848C919D7}
+		{D0D96BE8-9304-4247-9C12-2B87460B98D0} = {7BE67FD6-AC7B-4210-BB15-5C31A0D00113}
+	EndGlobalSection
+EndGlobal
